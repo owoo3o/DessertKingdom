@@ -1,0 +1,89 @@
+
+
+.noticeWrite_section{
+	width: 100%;
+}
+.noticeWrite_section input, .noticeWrite_section textarea{
+	outline: none;
+	border: none;
+}
+
+.noticeWrite_section h4{
+	margin-bottom: 15px;
+    text-align: left;
+	
+}
+.writeN_area{
+	width: 100%;
+	margin: 0px auto;
+	
+}
+.writeN_area table, .writeN_area table th, .writeN_area table td{ 
+	/* border: 1px solid red; */ 
+	font-size: 14px;
+}
+.writeN_area table{
+	width: 100%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.writeN_area table tr{
+	 border-top: 1px solid #ccc; 
+}
+.writeN_area table th{
+	text-align: center;
+	min-width: 60px;
+}
+.writeN_area table tr th:first-of-type{
+	height: 70px;
+	font-weight: normal;
+}
+.writeN_area table td{
+	
+}
+.writeN_area table td:before{
+    content: "|";
+    margin-right: 30px;
+    vertical-align: middle;
+    color: #999;
+}
+.writeN_area table tr:last-of-type td:before{
+	 content: none;
+	 margin-right: 0;
+     vertical-align: none;
+     color: none;
+     height: 21px;
+}
+
+.writeN_area table textarea{
+	width: 100%;
+	height: 100%;
+	background-color:none;
+	padding: 15px;
+}
+.writeN_area table input{
+   /*  border-bottom: 1px solid #999; 확정창은 믿줄 없음*/ 
+    width: 60%;
+}
+
+.writeN_area table input[name=notice_Title]{
+}
+
+#notice_UpdateBtn,#notice_DeleteBtn, #notice_CancelBtn{
+	width: 110px;
+	height: 44px;
+	background-color: #ffbe33;
+	padding: 7px 20px;
+	border:none;
+    color: #ffffff;
+    border-radius: 45px;
+    transition: all 0.3s;
+}
+#notice_UpdateBtn:hover, #notice_CancelBtn:hover{
+	background-color: #e69c00;
+}
+
+.hidden{
+	display: none;
+}
+

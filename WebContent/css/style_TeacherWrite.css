@@ -1,0 +1,94 @@
+
+
+.teacherWrite_section{
+	width: 100%;
+}
+.teacherWrite_section input, .teacherWrite_section textarea{
+	outline: none;
+	border: none;
+}
+
+.noticeWrite_section h4{
+	margin-bottom: 15px;
+    text-align: left;
+	
+}
+.writeT_area{
+	width: 100%;
+	margin: 0px auto;
+	
+}
+.writeT_area table, .writeT_area table th, .writeT_area table td{ 
+	/* border: 1px solid red; */ 
+	font-size: 14px;
+}
+.writeT_area table{
+	width: 100%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.writeT_area table tr{
+	 border-top: 1px solid #ccc; 
+}
+.writeT_area table th{
+	text-align: center;
+	min-width: 60px;
+}
+.writeT_area table tr th:first-of-type{
+	height: 70px;
+	font-weight: normal;
+	}
+.writeT_area table td{
+	
+}
+.writeN_area table td:before{
+    content: "|";
+    margin-right: 30px;
+    vertical-align: middle;
+    color: #999;
+    
+}
+.writeN_area table tr:last-of-type td:before{
+	 content: none;
+	 margin-right: 0;
+     vertical-align: none;
+     color: none;
+     height: 21px;
+}
+.writeT_area table td label{
+	vertical-align: middle;
+	padding: 10px 0 0 20px;
+	
+}
+.writeT_area table td .status{
+	vertical-align: middle;
+	
+}
+.writeT_area table textarea{
+	width: 100%;
+	height: 100%;
+	background-color:none;
+	padding: 15px;
+}
+
+.writeT_area table input[name=teacher_Name]{
+	width: 60%;	
+	border-bottom: 1px solid #999;
+}
+
+#notice_InsertBtn, #notice_CancelBtn{
+	width: 110px;
+	height: 44px;
+	background-color: #ffbe33;
+	padding: 7px 20px;
+	border:none;
+    color: #ffffff;
+    border-radius: 45px;
+    transition: all 0.3s;!
+}
+#notice_InsertBtn:hover, #notice_CancelBtn:hover{
+	background-color: #e69c00;
+}
+
+
+
